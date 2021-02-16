@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container position-relative">
+        <h3>Bookmarker</h3>
+        <hr>
+        <div class="py-5 bookmark text-center">
+            <h2>Bookmark your favorite sites</h2>
+            <div class="form-group">
+                <label for="siteName">Site Name</label>
+                <input class="form-control w-75 m-auto" type="text" id="siteName" placeholder="Bookmark Name">
+                <p id="showName"  class="w-75">Name is required</p>
+                <p id="repeated"  class="w-75">Site name is repeated</p>
+            </div>
+            <div class="form-group">
+                <label for="siteURL">Site URL</label>
+                <input class="form-control w-75 m-auto" type="text" id="siteURL" placeholder="website URL">
+                <p id="showURL" class="w-75">Url Field is required</p>
+            </div>
+            <button onclick="addWebsite();" class="btn btn-primary">Submit</button>
+        </div>
+        
+        <div id="websiteData" class="data">
+
+        </div>
+        <hr>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

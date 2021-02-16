@@ -1,0 +1,56 @@
+h3 {
+    margin: 50px 0 30px;
+    color: #AAA;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.bookmark {
+    background-color: #EEEEEE;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.bookmark h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+#websiteData {
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+    
+}
+
+.data h2 {
+    display: inline-block;
+    width: 30%;
+    
+}
+
+#showName, #showURL,#repeated {
+    display: none;
+}
+
+.bookmark p {
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+hr {
+    position: absolute;
+    left: -10px;
+    width: 102%;
+    background-color: #999;
+}
